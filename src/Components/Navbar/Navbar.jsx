@@ -16,6 +16,7 @@ const Navbar = () => {
           <span className='mr-2 text-[20px]' ><AiOutlinePhone /></span> <a href="tel:+40-724-371-035">0724371035</a>
           <span className='ml-2 text-[20px]'> <AiOutlineInstagram /></span>
          </div>
+         
          <div className='relative lg:absolute z-30 lg:right-[5rem] mt-[2.3rem] lg:mt-0 lg:top-[2.3rem] bg-logo  w-[70px] h-[56px] bg-cover bg-center'  />
           <div className='relative hidden lg:flex justify-center w-full items-center bg-white  z-40 h-[4rem] mt-[2rem]'>
            
@@ -55,7 +56,7 @@ const Navbar = () => {
             to="Cursuri"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-80}
             duration={500}
             href="Cursuri"
           >
@@ -66,7 +67,7 @@ const Navbar = () => {
             to="Galerie"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-90}
             duration={500}
             href="Galerie"
           >

@@ -14,7 +14,7 @@ const Cursuri = () => {
                                 Asadar daca iti doresti sa iti depasesti limitele si sa devii cea mai buna varianta a ta te astept sa pasim impreuna in lumea magica a unghiilor tehnice. ❤
                         </p>
                     </div>
-                <button href="tel:+40-724-371-035" className='relative right-0 top-[2rem] lg:top-[5rem] w-full lg:w-[15rem] h-[3rem] border-[1px] border-white '>CONTACT</button>
+                <a className='relative right-0 top-[2rem] lg:top-[5rem]' href="tel:+40-724-371-035"> <button  className=' w-full lg:w-[15rem] h-[3rem] border-[1px] border-white '>CONTACT</button></a>
                 </div>
                 <div className='w-full h-full py-[5rem] lg:py-[3rem] flex flex-col lg:flex-row  items-center justify-between'>
                     <CursuriCard title="CURS UNGHII CU GEL" />

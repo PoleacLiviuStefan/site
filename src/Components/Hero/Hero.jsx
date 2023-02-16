@@ -1,12 +1,12 @@
 import React from 'react'
 import {MdArrowForwardIos} from 'react-icons/md'
 import { useState,useEffect } from 'react'
-
+import { Link, animateScroll as scroll } from "react-scroll";
 const Hero = () => {
   const [activateAnim,setActivateAnim]=useState(false)
 
   return (
-    <div name="Hero" className='relative z-20 flex justify-center items-center bg-hero bg-cover bg-center  w-screen h-screen shadow-lg'>
+    <div name="Hero" className='relative z-20 flex justify-center items-center bg-unghii2 bg-cover bg-center  w-screen h-screen shadow-lg'>
             <div className='absolute w-full h-full bg-black bg-opacity-30'  />
             <div className='absolute bottom-[-2rem] w-full h-[2rem] opacity-[20%]  bg-gradient-to-t from-transparent to-black'  />
             <div className='flex justify-center items-center w-[80%] h-full'>
@@ -15,7 +15,17 @@ const Hero = () => {
                        <span className='text-[32px] lg:text-[56px]'> NAIL TRAINER</span>
                        
                     </h1>
+                      <Link
+                        activeClass="active"
+                        to="Despre"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        href="Despre"
+                        >
                     <button className='flex text-white justify-center items-center border-[1px] font-sans font-thin w-[16rem] lg:w-[18rem] h-[3rem] border-white  text-[14px] lg:text-[18px]  '>AFLA MAI MULTE <span className='rotate-[90deg] ml-2'> <MdArrowForwardIos /> </span> </button>
+                    </Link>
                 </div>
                 
             </div>
