@@ -49,7 +49,7 @@ const Navbar = () => {
             duration={500}
             href="Despre"
           >
-          <a className='relative flex cursor-pointer mt-[.8rem]' ><span className='text-[20px] mr-2' ><FaQuestion /></span> DESPRE MINE </a>
+          <a onClick={()=>setOpenMenu(false)} className='relative flex cursor-pointer mt-[.8rem]' ><span className='text-[20px] mr-2' ><FaQuestion /></span> DESPRE MINE </a>
           </Link>
           <Link
             activeClass="active"
@@ -60,7 +60,7 @@ const Navbar = () => {
             duration={500}
             href="Cursuri"
           >
-              <a className='relative  flex cursor-pointer ' ><span className='text-[20px] mr-2' ><BsFillJournalBookmarkFill /></span>CURSURI   </a>
+              <a onClick={()=>setOpenMenu(false)} className='relative  flex cursor-pointer ' ><span className='text-[20px] mr-2' ><BsFillJournalBookmarkFill /></span>CURSURI   </a>
             </Link>
             <Link
             activeClass="active"
@@ -71,7 +71,7 @@ const Navbar = () => {
             duration={500}
             href="Galerie"
           >
-              <a className='relative  flex cursor-pointer' ><span className='text-[20px] mr-2' ><GiFingernail /></span>GALERIE  </a>
+              <a onClick={()=>setOpenMenu(false)} className='relative  flex cursor-pointer' ><span className='text-[20px] mr-2' ><GiFingernail /></span>GALERIE  </a>
           </Link>
           <Link
             activeClass="active"
@@ -82,7 +82,7 @@ const Navbar = () => {
             duration={500}
             href="Footer"
           >
-              <a className='relative  flex cursor-pointer mb-[.8rem]' ><span className='text-[20px] mr-2' ><GrContact/></span> CONTACT  </a>
+              <a onClick={()=>setOpenMenu(false)} className='relative  flex cursor-pointer mb-[.8rem]' ><span className='text-[20px] mr-2' ><GrContact/></span> CONTACT  </a>
           </Link>
               </div>
           </div>
