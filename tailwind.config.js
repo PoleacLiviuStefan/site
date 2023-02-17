@@ -14,12 +14,18 @@ module.exports = {
         'unghii3':"url('/public/Images/unghii3.jpg')",
         'unghii4':"url('/public/Images/unghii4.jpg')",
         'unghii5':"url('/public/Images/unghii5.jpg')",
+        'unghii6':"url('/public/Images/unghii6.jpg')",
+        'unghii7':"url('/public/Images/unghii7.jpg')",
+        'unghii8':"url('/public/Images/unghii8.jpg')",
+        'unghii9':"url('/public/Images/unghii9.jpg')",
       },
       fontFamily:{
         'oldStandard': 'Old Standard TT, serif',
         'roboto': 'Roboto, sans-serif',
-        'robotoMono':"'Roboto Mono', monospace",
-        'montSerrat':"'Montserrat', sans-serif"
+        'robotoMono':"Roboto Mono, monospace",
+        'montSerrat':"Montserrat, sans-serif",
+        'libre':"Libre Baskerville, serif",
+        'garamond': "EB Garamond, serif"
       }
     },
     keyframes:{

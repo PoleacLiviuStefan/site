@@ -11,9 +11,9 @@ const About = () => {
                 </h2>
                 
                 <p className='relative mt-[1.5rem] lg:mt-[3rem] w-full lg:w-[90%] text-[15px] lg:text-[20px] text-justify font-[400] font-sans targeting-[2rem]'>
-                        🥰Draga viitoare cursanta , numele meu este Adina Hirsch . Activez în domeniul frumusetii unghiilor de peste 20 de ani. Cuvintele care ma definesc sunt pasiune , ambitie și determinare .
+                        Draga viitoare cursanta , numele meu este Adina Hirsch . Activez în domeniul frumusetii unghiilor de peste 20 de ani. Cuvintele care ma definesc sunt pasiune , ambitie și determinare .
 
-                        Aceasta scoala este un vis implinit si s-a nascut din dorinta de a transmite mai departe toate cunostintele mele în materie de unghii si sa insuflu dragostea si pasiunea pentru aceasta meserie . Indraznesc sa încadrez acest domeniu la rang de arta pentru ca ceea ce invatam aici nu este doar o simpla meserie ci este "arta pura" cum ar numi o o clienta draga mie 😊 
+                        Aceasta scoala este un vis implinit si s-a nascut din dorinta de a transmite mai departe toate cunostintele mele în materie de unghii si sa insuflu dragostea si pasiunea pentru aceasta meserie . Indraznesc sa încadrez acest domeniu la rang de arta pentru ca ceea ce invatam aici nu este doar o simpla meserie ci este "arta pura" cum ar numi o o clienta draga mie 
                         <br /> 
                         <br /> 
                         La randul meu invat de la cei mai buni traineri în domeniu cele mai noi tehnici de realizare, aducând astfel în scoala informații inovative în domeniu cu o teorie extrem de simpla și ușor de înțeles. 

@@ -16,7 +16,7 @@ const Galerie = () => {
                             setCurrentImage(prev=>prev=prev-1)
                          else
                          setCurrentImage(imageSelection.length-1)   
-                    }} className='absolute left-[-3.3rem] lg:left-[-7rem] rotate-[180deg] text-[64px] lg:text-[128px] cursor-pointer'><MdArrowForwardIos /></span>
+                    }} className='absolute left-[-3.3rem] lg:left-[-7rem] rotate-[180deg] text-[64px] lg:text-[128px] text-[#CD3F6E]  cursor-pointer'><MdArrowForwardIos /></span>
                     <div onClick={()=>setMaximizeImage(currentImage-1)} className={`w-[150px] h-[171px] lg:w-[330px] lg:h-[377px] mb-[1rem] lg:mb-0  mr-[.5rem] lg:mr-[2rem] ${imageSelection[currentImage-1]} bg-cover bg-center rounded-[10px]`} />
                     <div onClick={()=>setMaximizeImage(currentImage)} className={`w-[220px] h-[247px] lg:w-[450px] lg:h-[505px] ${imageSelection[currentImage]} bg-cover bg-center rounded-[10px]`} />
                     <div onClick={()=>setMaximizeImage(currentImage+1)} className={`w-[150px] h-[171px] lg:w-[330px] lg:h-[377px] mt-[1rem] lg:mt-0 ml-[.5rem] lg:ml-[2rem] ${imageSelection[currentImage+1]} bg-cover bg-center rounded-[10px]`} />
@@ -26,7 +26,7 @@ const Galerie = () => {
                         else
                         setCurrentImage(0)
 
-                    }} className='absolute right-[-3.3rem] lg:right-[-7rem] text-[64px] lg:text-[128px] cursor-pointer'><MdArrowForwardIos /></span>
+                    }} className='absolute right-[-3.3rem] lg:right-[-7rem] text-[64px] lg:text-[128px] text-[#CD3F6E] cursor-pointer'><MdArrowForwardIos /></span>
                 </div>
             </div>
         </div>
