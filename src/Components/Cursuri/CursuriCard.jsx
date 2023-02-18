@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const CursuriCard = ({title,description,imageCard,routing}) => {
   const navigate=useNavigate()
   return (
-    <div onClick={()=>{navigate(routing); window.scrollTo({top:0,left:0}) }}  className='relative mr-0 lg:mr-[10rem]  w-[270px] h-[310px]  rounded-[15px] bg-unghii bg-cover bg-center shadow-[5px_5px_38px_5px_rgba(0,0,0,0.12)] cursor-pointer'>
+    <div onClick={()=>{navigate(routing); window.scrollTo({top:0,left:0}) }}  className={`relative mr-0 lg:mr-[10rem]  w-[270px] h-[310px]  rounded-[15px] ${imageCard} bg-cover bg-center shadow-[5px_5px_38px_5px_rgba(0,0,0,0.12)] cursor-pointer`}>
             <div className='absolute  w-full h-full   flex flex-col justify-end items-left px-[1.5rem] '>
                 <h2 className=' text-white z-20 text-[20px] font-[600] font-montSerrat text-left mb-[2rem] w-[70%]'>{title} </h2>
               

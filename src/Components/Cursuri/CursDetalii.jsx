@@ -9,12 +9,12 @@ const CursDetalii = ({title,imagine,detalii,diploma,dimensions}) => {
                  <h2 className='text-[24px] text-left    lg:text-[34px] font-libre '>{title}</h2>
                  </div>
              <div className='flex lg:flex-row flex-col w-[90%] lg:w-full justify-center items-center lg:items-start'>
-              <div className=' w-[300px] h-[370px] lg:w-[500px]  lg:h-[627px]'> 
+              <div className=' w-[350px]  h-[439px]'> 
              <CursorZoom
                 image={{
                     src: imagine,
-                    width: 500,
-                    height: 627
+                    width: 350,
+                    height: 439
                 }}
                 zoomImage={{
                     src: imagine,
