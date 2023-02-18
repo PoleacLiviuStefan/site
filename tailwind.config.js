@@ -18,6 +18,12 @@ module.exports = {
         'unghii7':"url('/public/Images/unghii7.jpg')",
         'unghii8':"url('/public/Images/unghii8.jpg')",
         'unghii9':"url('/public/Images/unghii9.jpg')",
+        'unghii10':"url('/public/Images/unghii10.jpg')",
+        'unghii11':"url('/public/Images/unghii11.jpg')",
+        'unghii12':"url('/public/Images/unghii12.jpg')",
+        'unghii13':"url('/public/Images/unghii13.jpg')",
+        'unghii14':"url('/public/Images/unghii14.jpg')",
+        'unghii15':"url('/public/Images/unghii15.jpg')",
       },
       fontFamily:{
         'oldStandard': 'Old Standard TT, serif',

@@ -27,10 +27,10 @@ const Cursuri = () => {
                 </div>
                 <div className='w-full h-full py-[5rem] lg:py-[3rem] flex flex-col lg:flex-row  items-center justify-between lg:justify-center '>
                     <Fade left>
-                         <CursuriCard  title="CURS MANICHIURA BASIC " routing="curs-manichiura-basic" imageCard="bg-unghii9" />
+                         <CursuriCard  title="CURS MANICHIURA BASIC " routing="curs-manichiura-basic" imageCard="bg-unghii7" />
                     </Fade>
                     <Fade right>
-                         <CursuriCard title="CURS MANICHIURA SEMIPERMANENTA" routing="curs-manichiura-semipermanenta" imageCard="bg-unghii8" />
+                         <CursuriCard title="CURS MANICHIURA SEMIPERMANENTA" routing="curs-manichiura-semipermanenta" imageCard="bg-unghii" />
                     </Fade>
                 </div>
             </div>

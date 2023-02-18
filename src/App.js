@@ -7,8 +7,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom"
 import CursDetalii from "./Components/Cursuri/CursDetalii";
 import {TiTickOutline} from 'react-icons/ti'
-import imagine1 from './Images/unghii9.jpg'
-import imagine2 from './Images/unghii8.jpg'
+import imagine1 from './Images/unghii7.jpg'
+import imagine2 from './Images/unghiiCuGel.jpg'
 import Contact from "./Components/Contact/Contact";
 function App() {
   return (
@@ -20,37 +20,7 @@ function App() {
           <Cursuri />
           <Galerie /></>} 
           />
-        <Route path="/curs-manichiura-basic" element={<CursDetalii title="CURS MANICHIURA BASIC" imagine={imagine1} dimensions={[1720,2048]} diploma={true} detalii={
-          <p className=" text-[14px] lg:text-[16px] ">
-          <span className="font-bold text-[16px] lg:text-[18px] "> Ce vei invata la acest curs : </span>
-          <ul>
-                                    
-              <li className="flex mt-[.5rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aranjarea spatiului de lucru </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Clasificarea ustensilelor </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Sterilizarea ustensilelor </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Anatomia unghiilor </li>
-                                  
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Tipuri de pat unghial </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Solutii de pregatire </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea ojei semipermanente </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea bazei rubber </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea ojei sub cuticula </li>
-                                    
-              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Tehnici de promovare </li>
-          </ul>
-
-          <h3 className="mt-[.5rem] ml-[.8rem] text-[16px] lg:text-[18px]"><span className="font-bold">Durata  : </span> 1 zi</h3>
-
-          </p>} />} 
-        />
-       <Route path="/curs-manichiura-semipermanenta" element={<CursDetalii title="CURS MANICHIURA SEMIPERMANENTA" imagine={imagine2} diploma={true} dimensions={[1996,2048]} detalii={
+        <Route path="/curs-manichiura-basic" element={<CursDetalii title="CURS MANICHIURA BASIC" imagine={imagine1} dimensions={[1852,2048]} diploma={true} detalii={
           <p className=" text-[14px] lg:text-[16px] ">
             <span className="font-bold">Ce presupune acest curs : </span>
             <br/>
@@ -84,6 +54,36 @@ function App() {
           </ul>
 
           <h3 className="mt-[.5rem] ml-[.8rem] text-[16px] lg:text-[18px]"><span className="font-bold">Durata  : </span> 2 zile</h3>
+
+          </p>} />} 
+        />
+       <Route path="/curs-manichiura-semipermanenta" element={<CursDetalii title="CURS MANICHIURA SEMIPERMANENTA" imagine={imagine2} diploma={true} dimensions={[1630,2048]} detalii={
+          <p className=" text-[14px] lg:text-[16px] ">
+          <span className="font-bold text-[16px] lg:text-[18px] "> Ce vei invata la acest curs : </span>
+          <ul>
+                                    
+              <li className="flex mt-[.5rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aranjarea spatiului de lucru </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Clasificarea ustensilelor </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Sterilizarea ustensilelor </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Anatomia unghiilor </li>
+                                  
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Tipuri de pat unghial </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Solutii de pregatire </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea ojei semipermanente </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea bazei rubber </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Aplicarea ojei sub cuticula </li>
+                                    
+              <li className="flex mt-[.2rem]"><span className="text-[18px] mt-1"><TiTickOutline /></span> Tehnici de promovare </li>
+          </ul>
+
+          <h3 className="mt-[.5rem] ml-[.8rem] text-[16px] lg:text-[18px]"><span className="font-bold">Durata  : </span> 1 zi</h3>
 
           </p>}/>} />
           <Route path="/contact" element={<Contact />} />

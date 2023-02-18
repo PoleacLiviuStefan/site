@@ -21,7 +21,7 @@ const CursDetalii = ({title,imagine,detalii,diploma,dimensions}) => {
                     width: dimensions[0],
                     height: dimensions[1]
                 }}
-                cursorOffset={{ x: 0, y: 0}}
+                cursorOffset={{ x: -80, y: -80}}
             />
             </div>
                 <div className='flex flex-col mt-[2rem] lg:mt-0 items-center w-full bg-white lg:ml-[5rem]  lg:w-[36rem] shadow-[5px_5px_38px_5px_rgba(0,0,0,0.22)] ' >
