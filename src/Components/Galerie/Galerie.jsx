@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 const Galerie = () => {
     const [currentImage,setCurrentImage]=useState(1)
     const [maximizeImage,setMaximizeImage]=useState(-1)
-    const imageSelection=['bg-unghii','bg-unghii2','bg-unghii3','bg-unghii4','bg-unghii5']
+    const imageSelection=['bg-unghii','bg-unghii2','bg-unghii3','bg-unghii4','bg-unghii5','bg-unghii6','bg-unghii7','bg-unghii8','bg-unghii9']
   return (
     <div name="Galerie" className='relative h-[55rem]  text-black flex justify-center w-full  '>
         <div className='w-[90%] lg:py-0 lg:px-[5rem] h-full bg-white shadow-xl flex flex-col items-center'>
