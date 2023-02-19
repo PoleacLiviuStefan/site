@@ -24,7 +24,7 @@ const CursDetalii = ({title,imagine,detalii,diploma,dimensions}) => {
                 cursorOffset={{ x: -80, y: -80}}
             />
             </div>
-                <div className='flex flex-col mt-[2rem] lg:mt-0 items-center w-full bg-white lg:ml-[5rem]  lg:w-[36rem] shadow-[5px_5px_38px_5px_rgba(0,0,0,0.22)] ' >
+                <div onCl className='flex flex-col mt-[2rem] lg:mt-0 items-center w-full bg-white lg:ml-[5rem]  lg:w-[36rem] shadow-[5px_5px_38px_5px_rgba(0,0,0,0.22)] ' >
                   <div className=' h-[720px] lg:h-[750px] w-[90%] lg:w-[90%] flex flex-col items-center' >
                       <h2 className='text-[24px] text-left mt-[2rem]  lg:text-[42px]   font-libre leading-[35px]'>{title}</h2>
                       <h3 className={`flex justify-center items-center ${!diploma && "hidden" } font-bold mt-[1.5rem] h-[1.5rem] w-full bg-green-200 `}>Se acorda diploma de participare</h3>

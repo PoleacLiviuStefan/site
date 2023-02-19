@@ -22,7 +22,7 @@ const Cursuri = () => {
                         </Fade>
                     </div>
                     <Fade right>
-                 <button onClick={()=>{navigate("/contact"); window.scrollTo({top:0,left:0})}}  className=' w-full lg:w-[15rem] h-[3rem] border-[1px] border-white '>CONTACT</button>
+                 <button onClick={()=>{navigate("/contact"); window.scrollTo({top:0,left:0})}}  className=' w-full lg:w-[15rem] h-[3rem] border-[1px] border-white mt-[2rem] lg:mt-0 '>CONTACT</button>
                  </Fade>
                 </div>
                 <div className='w-full h-full py-[5rem] lg:py-[3rem] flex flex-col lg:flex-row  items-center justify-between lg:justify-center '>

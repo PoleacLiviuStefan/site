@@ -4696,6 +4696,11 @@ globby@^11.0.4, globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
+google-maps-reviews@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/google-maps-reviews/-/google-maps-reviews-0.3.0.tgz#7f9fc877931fd49754e845c3411bcefa80ed9714"
+  integrity sha512-95fF/hPKz+pcboBmd91FVe66HKoRSOYINEjJF6S5J5Jf2SCE+2hTCh5SaqWYoihvzlykwVob0vItGkaFkI9Beg==
+
 gopd@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.0.1.tgz#29ff76de69dac7489b7c0918a5788e56477c332c"

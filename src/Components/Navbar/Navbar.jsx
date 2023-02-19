@@ -8,6 +8,8 @@ import {GrContact} from 'react-icons/gr'
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useNavigate } from 'react-router'
 import {CiFacebook} from 'react-icons/ci'
+import {AiFillStar} from 'react-icons/ai'
+
 const Navbar = () => {
   const [openMenu,setOpenMenu]=useState(false)
   const navigate=useNavigate()
@@ -67,6 +69,17 @@ const Navbar = () => {
           >
               <a onClick={()=>navigate("/")} className='relative  flex flex-col items-left cursor-pointer' >GALERIE <span className='relative w-full h-[2px] bg-black ' /></a>
          </Link>
+           <Link
+            activeClass="active"
+            to="Recenzii"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            href="Recenzii"
+          >
+              <a onClick={()=>navigate("/")} className='relative  flex flex-col items-left cursor-pointer' >RECENZII <span className='relative w-full h-[2px] bg-black ' /></a>
+         </Link>
               <a onClick={()=>{navigate("/contact");window.scrollTo({top:0,left:0}) }} className='relative  flex flex-col items-left cursor-pointer' >CONTACT <span className='relative w-full h-[2px] bg-black ' /></a>
             
             </div>
@@ -82,7 +95,7 @@ const Navbar = () => {
             <div onClick={()=>{navigate("/"); window.scrollTo({top:0,left:0})}} className='  z-50   bg-logo  w-[70px] h-[56px] bg-cover bg-center cursor-pointer'  />
             </div>
           </div>
-          <div className={`absolute flex justify-center mt-[6rem] shadow-xl  ${openMenu ? 'animate-[menuSlideAnim_.5s_ease-in-out_forwards]':"animate-[menuSlideAnimReverse_.5s_ease-in-out_forwards]"}  z-10 w-screen h-[9rem] bg-white text-[14px]`}>
+          <div className={`absolute flex justify-center mt-[6rem] shadow-xl  ${openMenu ? 'animate-[menuSlideAnim_.5s_ease-in-out_forwards]':"animate-[menuSlideAnimReverse_.5s_ease-in-out_forwards]"}  z-10 w-screen h-[12rem] bg-white text-[14px]`}>
 
             <div className='absolute  flex flex-col items-left justify-between  w-[80%] h-full    '>
             <Link
@@ -118,7 +131,17 @@ const Navbar = () => {
           >
               <a onClick={()=>{setOpenMenu(false); navigate("/") ; }} className='relative  flex cursor-pointer' ><span className='text-[20px] mr-2' ><GiFingernail /></span>GALERIE  </a>
           </Link>
-     
+          <Link
+            activeClass="active"
+            to="Recenzii"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            href="Recenzii"
+          >
+               <a onClick={()=>{setOpenMenu(false); navigate("/") ; }} className='relative  flex cursor-pointer' ><span className='text-[20px] mr-2' ><AiFillStar /></span>RECENZII  </a>
+         </Link>
               <a onClick={()=>{setOpenMenu(false);navigate("/contact");window.scrollTo({top:0,left:0})}} className='relative  flex cursor-pointer mb-[.8rem]' ><span className='text-[20px] mr-2' ><GrContact/></span> CONTACT  </a>
           
               </div>

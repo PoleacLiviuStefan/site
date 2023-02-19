@@ -10,6 +10,7 @@ import {TiTickOutline} from 'react-icons/ti'
 import imagine1 from './Images/unghii7.jpg'
 import imagine2 from './Images/unghiiCuGel.jpg'
 import Contact from "./Components/Contact/Contact";
+import Recenzii from "./Components/Recenzii/Recenzii";
 function App() {
   return (
     <div >
@@ -18,7 +19,9 @@ function App() {
         <Route path="/" element={<> <Hero />
           <About />
           <Cursuri />
-          <Galerie /></>} 
+          <Galerie />
+          <Recenzii />
+          </>} 
           />
         <Route path="/curs-manichiura-basic" element={<CursDetalii title="CURS MANICHIURA BASIC" imagine={imagine1} dimensions={[1852,2048]} diploma={true} detalii={
           <p className=" text-[14px] lg:text-[16px] ">
